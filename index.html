@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q3 Seatwork 1 </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <style>
+      	body{
+      		font-family: Lato;
+      		}
+      	kbd,p{
+      		font-size: 50px;
+
+      		}
+      	img{
+      		height: 150px;
+      		width: 140px;
+      	}
+      	a{
+      		margin-left: 20px;
+      		margin-right: 20px;
+      	}
+    </style>
+</head>
+
+<body class="bg-info text-light">
+<br><br>
+    
+<div class="container">
+
+    <center>
+    <img src="https://media4.giphy.com/media/gulXBo07CiPIK57OT1/giphy.gif?cid=6c09b95282yss9ti3rcwbvya38xo7qh2ctiinr3c105m14hd&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s">
+    <br><br>
+
+    <div class="col-md-12">
+        <script>
+        var php = 1000; //given value in peso
+      
+
+        document.write("<h2>Click the buttons below to convert </h2>" + "<kbd>" + 1000 + "</kbd>" + "<h2>pesos to other currencies</h2>"); 
+
+        </script>
+    </div>
+    </center>
+
+
+    <br>
+
+    <center>     
+    <div class="col-md-12">
+        <p id="display"></p>
+        <br>
+        <button type="button" class="btn btn-primary" onclick="var php = 1000; var $dollar=58.66; document.getElementById('display').innerHTML= '<kbd>' + php/$dollar + '</kbd>';">Dollar</button>
+         <button type="button" class="btn btn-warning" onclick="var php = 1000; var baht=1.69; document.getElementById('display').innerHTML= '<kbd>' + php/baht + '</kbd>';">Baht</button>
+         <button type="button" class="btn btn-success" onclick="var php = 1000; var yen=0.38; document.getElementById('display').innerHTML= '<kbd>' + php/yen + '</kbd>';">yen</button>
+         <button type="button" class="btn btn-danger" onclick="var php = 1000; var euro=60.99; document.getElementById('display').innerHTML= '<kbd>' + php/euro + '</kbd>';">Euro</button>
+         <button type="button" class="btn btn-danger" onclick="var php = 1000; var pound=72.71; document.getElementById('display').innerHTML= '<kbd>' + php/pound + '</kbd>';">Pound</button>
+
+    </div>
+    </center>
+</div>
+
+    <br>
+
+    <center>
+    <div class="col-md-12">
+        <a href="index.html"><button class="btn btn-success btn-lg">Refresh</button></a>
+
+   	</div>
+   </center>
+
+</body>
+</html>
